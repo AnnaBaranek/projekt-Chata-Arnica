@@ -9,6 +9,14 @@
   --subheading-font-family: "Lora";
 }
 
+
+
+:root[data-theme='dark'] {
+  --background-primary: #132221;
+  --background-secondary: #476462;
+  --text: #e1e1e1;
+}
+
 /* ZÁKLADNÍ STYLY */
 
 *,
@@ -78,7 +86,7 @@ span {
   font-size: 2.5rem;
   font-family: var(--subheading-font-family);
   text-align: center;
-  background-color: #cdddda;
+  background-color: var(--background-secondary);
 }
 
 /* ÚVODNÍ TEXT  */
